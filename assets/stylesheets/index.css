@@ -68,6 +68,8 @@ button {
   font-size: 14px;
   padding: 18px 114px;
   text-align: center;
+  box-shadow:  -1px 17px 7px -16px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow:  -1px 17px 7px -16px rgba(0, 0, 0, 0.5);
 }
 .form-section {
   background-color: #fff;
@@ -75,6 +77,8 @@ button {
   height: 100%;
   margin-top: 20px;
   margin-bottom: 85px;
+  box-shadow:  -2px 18px 3px -16px rgba(11, 11, 11, 0.5);
+  -webkit-box-shadow:  -2px 18px 3px -16px rgba(11, 11, 11, 0.5);
 }
 .form-group {
   margin-top: 40px;
@@ -102,6 +106,8 @@ button {
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
+  box-shadow: inset -5px -27px 0px -24px rgba(42, 174, 115, 0.5);
+  -webkit-box-shadow: inset -5px -27px 0px -24px rgba(42, 174, 115, 0.5);
 }
 .small p,
 .small p .terms {
