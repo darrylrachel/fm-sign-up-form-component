@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+.container {
+  /* border: 1px solid aqua; */
+}
+.box {
+  border: 1px solid rgb(94, 255, 0);
+}
+.box-d {
+  border: 1px solid rgb(38, 0, 255);
+}
+/* delete */
+
+* {
+  box-sizing: border-box;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url("/assets/images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1110px;
+  position: relative;
+  top: 60px;
+}
+.left {
+  height: 100%;
+  padding-right: 53px;
+}
+.title {
+  margin-top: 160px;
+}
+.title h1 {
+  color: #fff;
+  font-size: 49px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+.body p {
+  color: #fff;
+  font-weight: 600;
+  margin-top: 25px;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  background-color: transparent;
+  border-style: hidden;
+}
+.purple-button {
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+  padding: 18px 114px;
+  text-align: center;
+}
+.form-section {
+  background-color: #fff;
+  border-radius: 8px;
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+.form-group {
+  margin-top: 40px;
+}
+.field {
+  border: 1px solid rgba(182, 182, 182, 0.867);
+  border-radius: 5px;
+  display: block;
+  font-size: 13.5px;
+  font-weight: 600;
+  padding: 18px 180px 18px 30px;
+  margin: 0px 40px 20px 40px;
+}
+.bottom-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.green-button {
+  background-color: hsl(154, 59%, 51%);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  padding: 18px 135px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.small p,
+.small p .terms {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+.small p {
+  color: hsl(246, 25%, 77%);
+}
+p .terms {
+  color: hsl(0, 100%, 74%);
+  font-weight: 700;
+}
